@@ -36,7 +36,7 @@ namespace VacanciesIndexing.ConvertersToBackEnd.E1
 
                     EmploymentType = SelectNodeValueByAttributeValue(allNodes, "employmentType"),
                     Skills = SelectNodeValueByAttributeValue(allNodes, "ra-vacancy-full-skills"),
-                    Description = SelectNodeValueByAttributeValue(allNodes, "ra-vacancy-full-description-text"),
+                    Description = SelectNodeValueByAttributeValue(allNodes, "ra-vacancy-full-description"),
 
                     ContactPerson = SelectNodeValueByAttributeValue(allNodes, "ra-vacancy-full-contact-info-person"),
                     ContactCompany = SelectNodeValueByAttributeValue(allNodes, "ra-vacancy-full-contact-info-company"),
